@@ -1,23 +1,14 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{C899014A-6440-E7E7-59DA-303AB52DB8D9}") = "PumpKing", "Assembly-CSharp.csproj", "{1E61B5D5-9147-47AE-0C09-ED8490EEE2D2}"
-EndProject
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E61B5D5-9147-47AE-0C09-ED8490EEE2D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E61B5D5-9147-47AE-0C09-ED8490EEE2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E61B5D5-9147-47AE-0C09-ED8490EEE2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E61B5D5-9147-47AE-0C09-ED8490EEE2D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

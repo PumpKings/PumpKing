@@ -9,7 +9,7 @@ public class CoolTimeYounSubb : MonoBehaviour
     public GameObject CoolTimeDisplay;
     public GameObject CoolTimeEndDisplay;
 
-    int count = 5;
+    public int count;
     public bool eTime = false;
     public float cOolTime = 0;
     public float EndCoolTime;

@@ -184,8 +184,10 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Player_Character\cha_data\Script\ScreenShot.cs" />
+     <Compile Include="Assets\Scripts_LKH\CoolTimeDisplay.cs" />
      <Compile Include="Assets\Scripts_LKH\CoolTimeOBJClose.cs" />
      <Compile Include="Assets\Scripts_LKH\CoolTimeYounSubb.cs" />
+     <Compile Include="Assets\Scripts_LKH\SetActiveT1.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.9.4.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />

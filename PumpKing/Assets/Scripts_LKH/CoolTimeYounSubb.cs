@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class CoolTimeYounSubb : MonoBehaviour
 {
-    public GameObject bOomEndControl;
-    public GameObject bOomBotton;
+    public GameObject CoolTimeControl;
+    public GameObject SkillBotton;
+    public GameObject CoolTimeDisplay;
+    public GameObject CoolTimeEndDisplay;
 
     int count = 5;
     public bool eTime = false;
@@ -16,13 +18,13 @@ public class CoolTimeYounSubb : MonoBehaviour
     {
         //Debug.Log(Time.timeScale);
         if (eTime == true)
-        {
-            bOomBotton.SetActive(false);
+        {            
+            SkillBotton.SetActive(false);
             cOolTime += Time.deltaTime;
             //Debug.Log("2");
             if (cOolTime > EndCoolTime)
-            {
-                bOomBotton.SetActive(true);
+            {                
+                SkillBotton.SetActive(true);
                 cOolTime = 0;
                 eTime = false;
                 //Debug.Log("2_Q");
@@ -30,15 +32,19 @@ public class CoolTimeYounSubb : MonoBehaviour
         }
     }
 
-    public void BooMEnd()
+    public void SkillCoolTime()
     {
         count--;
-        //Debug.Log("1");
+        Debug.Log(count);
         eTime = true;
+
+        CoolTimeDisplay.SetActive(true);
+
+        
         if (count == 0)
         {
-            bOomEndControl.SetActive(false);
-            //Debug.Log("1_Q");          
+            CoolTimeControl.SetActive(false);
+            CoolTimeEndDisplay.SetActive(true);
         }
     }
 }

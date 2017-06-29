@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
         JoystickX = JoyStickpos.GetComponent<UIJoystick>().position.x;
         JoystickY = JoyStickpos.GetComponent<UIJoystick>().position.y;
-        transform.Translate(JoystickX * Time.deltaTime*0.4f, 0, JoystickY * Time.deltaTime*0.4f);
+        transform.Translate(JoystickX * Time.deltaTime, 0, JoystickY * Time.deltaTime);
         //transform.LookAt(new Vector3(JoystickX, 0, JoystickY));
   	}
 }
